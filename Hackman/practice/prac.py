@@ -6,7 +6,15 @@ def main():
 
 main()
 """
+
+
+
+
+
+
+
 # Function that insists on YES or NO
+
 
 """
 def get_yes_no():
@@ -22,6 +30,13 @@ def get_yes_no():
 get_yes_no()
 
 """
+
+
+
+
+
+
+
 """
 # Function that insists on a positive number
 
@@ -41,22 +56,36 @@ def get_positive_number():
 get_positive_number()
 """
 
+
+
+
+
+
+
+
+
+"""
 # Function that insists input is in a list
 
-# def get_choice():
-#     options = ["rock", "paper", "scissors"]
+def get_choice():
+    options = ["rock", "paper", "scissors"]
     
-#     while True:
-#         choice = input("Choose rock, paper, or scissors: ").lower()
+    while True:
+        choice = input("Choose rock, paper, or scissors: ").lower()
         
-#         if choice in options:
-#             return choice
-#         else:
-#             print("Invalid choice.")
+        if choice in options:
+            return choice
+        else:
+            print("Invalid choice.")
 
-# get_choice()   
+get_choice() 
+"""  
 
 
+
+
+
+"""
 # writing a function called analyze_number. 
 def analyze_number():
     while True:
@@ -73,4 +102,7 @@ def analyze_number():
             print("Invalid input. Please enter a numeric value.")
 
 analyze_number()
+
+
+"""
 
