@@ -13,7 +13,7 @@ def main():
      front_logic()
 
 
-
+# a function to save the file
 def save_file(data):
     
     with open ("data.json", "w", encoding="utf-8") as file:
@@ -23,7 +23,7 @@ def save_file(data):
 
 
 
-
+#a function to load the file
 def load_file():
     
     try:
@@ -35,8 +35,7 @@ def load_file():
 
     return data
 
-
-
+#this is the control function
 def front_logic():
     head = f"*"*5 + " TODO list Menu " + f"*"*5
     

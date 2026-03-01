@@ -1,14 +1,15 @@
 # Imports
 from flask import Flask, render_template, request, redirect
-from flask_bootstrap import Bootstrap5
+from flask_bootstrap import Bootstrap
 from flask_scss import Scss
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 
 #My App Setup
 app = Flask(__name__)
-bootsrap = Bootstrap5(app)
+bootsrap = Bootstrap(app)
 Scss(app)
+
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///database.db"
 app.config["SQLALCHEMY_TRACK_MODIFICATION"] = False
 db = SQLAlchemy(app)
@@ -26,7 +27,7 @@ with app.app_context():
         db.create_all()
 
 #App routes
-@app.route("/",methods=["POST","GET"])
+@app.route( "/" , methods=["POST","GET"] )
 def index():
     #Add task
     if request.method == "POST":
