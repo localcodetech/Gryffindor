@@ -1,6 +1,6 @@
-from PIL import Image
-img = Image.open("majlis.jpg")
-img.show()
+# from PIL import Image
+# img = Image.open("majlis.jpg")
+# img.show()
 
 # converting image into gif 
 
@@ -8,3 +8,4 @@ img.show()
 # img = Image.open("")
 # img save("output.gif", format = "GIF")
 # print("GIF created!")
+

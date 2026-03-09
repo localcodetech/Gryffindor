@@ -47,14 +47,18 @@ from sys import argv,exit
 
 
 
-from PIL import Image,ImageChops
+# from PIL import Image,ImageChops
 
-img1 = Image.open("./motor1.jpg")
-img2 = Image.open("./motor2.jpg")
+# img1 = Image.open("./motor1.jpg")z
+# img2 = Image.open("./motor2.jpg")
 
-diff = ImageChops.difference(img1,img2)
-diff.show()
+# diff = ImageChops.difference(img1,img2)
+# diff.show()
 
 # from PIL import Image
 # img = Image.open(.jpg)
 # img.show()
+
+
+
+
