@@ -14,6 +14,7 @@ from json import JSONDecodeError, load, dump
 
 
 
+
 class StudentRegistrationForm:
     if not path.exists("file"):
      os.mkdir("file")
@@ -152,6 +153,9 @@ class StudentRegistrationForm:
             c +=1
       
     dd = id_generation()
+
+
+
     
      
 
@@ -164,11 +168,6 @@ class StudentRegistrationForm:
 
 
     
-
-
-
-
-
 
 
 forms = StudentRegistrationForm()

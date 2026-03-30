@@ -43,7 +43,7 @@ def index():
 def get_all_channel():
     data = load_file()
     all_channel = data["tv"] + data["radio"]
-    return Response.json ("data":all_channel)
+    return Response.json(all_channel)
 
 @app.route("/api/channels/tv", methods = ["GET"])
 def get_all_tv_channel():

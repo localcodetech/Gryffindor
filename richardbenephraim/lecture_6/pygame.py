@@ -2,6 +2,7 @@ import pygame
 import os, sys
 
 pygame.mixer.music.int()
+
 class MusicPlayer:
     rootpath = os.path.expanduser("~/Music")
 
